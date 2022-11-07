@@ -22,6 +22,20 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## Folder structure
+
+- Root module
+This module loads all the root components and other modules. Root Modules are alternative known as AppModule and are created under the /src/app folder.
+
+- Feature module
+Implement a specific feature of Angular app. All the associated pipes, components and directives that help implement the feature be come a part of this module.
+
+- Shared module
+
+
+
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# WORKSPACE-CLIENT
